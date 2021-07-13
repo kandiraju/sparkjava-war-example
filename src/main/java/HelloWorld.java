@@ -9,6 +9,6 @@ public class HelloWorld implements SparkApplication {
 
 	@Override
 	public void init() {
-		get("/hello", (req, res) -> " Devops testing succesful");
+		get("/hello", (req, res) -> " Running multiple tomcats");
 	}
 }
